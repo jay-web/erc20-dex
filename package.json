@@ -1,0 +1,24 @@
+{
+  "name": "erc20-dex",
+  "version": "1.0.0",
+  "description": "Using ERC-20 openzepplin contract to mint token and use them in decentralized exchange",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ERC20",
+    "decentralized",
+    "exchange",
+    "dex"
+  ],
+  "author": "jay sharma",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.17.3"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.3"
+  }
+}
